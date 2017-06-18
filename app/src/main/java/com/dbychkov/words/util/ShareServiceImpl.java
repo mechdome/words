@@ -30,7 +30,7 @@ import javax.inject.Singleton;
 @Singleton
 public class ShareServiceImpl implements ShareService {
 
-    private static final String DEFAULT_TEXT = "Check out this app on google play\n";
+    private static final String DEFAULT_TEXT = "Check out this app on github\n";
 
     private Context context;
 
@@ -46,7 +46,7 @@ public class ShareServiceImpl implements ShareService {
         intent.putExtra(
                 Intent.EXTRA_TEXT,
                 DEFAULT_TEXT
-                        + Uri.parse("http://play.google.com/store/apps/details?id="
+                        + Uri.parse("https://github.com/mechdome/words"
                         + context.getPackageName()));
 
         activity.startActivity(Intent.createChooser(intent, "Share"));
