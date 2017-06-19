@@ -1,4 +1,4 @@
-# IELTS Vocabulary Flashcards [![Build Status](https://travis-ci.org/bychkovdmitrii/words.svg?branch=master)](https://travis-ci.org/bychkovdmitrii/words)
+# IELTS Vocabulary Flashcards
 
 <img src="/images/app_icon.png" height="400px"/>
 
@@ -14,7 +14,7 @@ Features:
 
 ## Google Play
 
-[IELTS Vocabulary Flashcards on Google Play](https://play.google.com/store/apps/details?id=com.dbychkov.words)
+[IELTS Vocabulary Flashcards in the App Store](https://itunes.apple.com/us/app/ielts-vocabulary-flashcards/id1227533764?mt=8)
 
 ## Screenshots
 
@@ -38,6 +38,7 @@ Features:
 
 ## License
 
+    Copyright 2017 MechDome
     Copyright 2014-2015 dbychkov.com
 
     Licensed under the Apache License, Version 2.0 (the "License");
