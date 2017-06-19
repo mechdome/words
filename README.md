@@ -12,7 +12,7 @@ Features:
 * Create your own flashcards
 * Bookmark favorite lessons
 
-## Play Store
+## App Store
 
 [IELTS Vocabulary Flashcards in the App Store](https://itunes.apple.com/us/app/ielts-vocabulary-flashcards/id1227533764?mt=8)
 
