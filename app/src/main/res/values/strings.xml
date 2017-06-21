@@ -5,7 +5,7 @@
     <string name="importing_data">Importing data...</string>
 
     <!-- LessonCatalogActivity menu -->
-    <string name="menu_rate">Rate</string>
+    <string name="about_mechdome">About MechDome</string>
     <string name="menu_share">Share</string>
     <string name="menu_about">About</string>
 

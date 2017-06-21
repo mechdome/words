@@ -41,6 +41,7 @@ android {
     packagingOptions {
         exclude 'META-INF/services/javax.annotation.processing.Processor'
     }
+    buildToolsVersion '25.0.0'
 }
 
 dependencies {
@@ -68,4 +69,5 @@ dependencies {
     compile appDependencies.numberprogressbar
     compile appDependencies.butterknife
     compile appDependencies.rxandroid
+    compile 'com.mechdome:MechDome-About:+'
 }

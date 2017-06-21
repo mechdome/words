@@ -16,6 +16,7 @@
 
 package com.dbychkov.words.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
@@ -40,6 +41,8 @@ import javax.inject.Inject;
 import butterknife.Bind;
 import butterknife.BindString;
 import butterknife.ButterKnife;
+
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
 
 /**
  * Main activity with list of lessons (installed lessons, bookmarked lessons, user lessons).
@@ -120,8 +123,8 @@ public class LessonCatalogActivity extends BaseActivity implements ViewPager.OnP
             case R.id.share:
                 lessonCatalogActivityPresenter.shareButtonClicked();
                 return true;
-            case R.id.rate:
-                lessonCatalogActivityPresenter.rateButtonClicked();
+            case R.id.id_aboutmechdome:
+                startActivity(new Intent(this,AboutMechDomeActivity.class));
                 return true;
             case R.id.about:
                 lessonCatalogActivityPresenter.aboutButtonClicked();

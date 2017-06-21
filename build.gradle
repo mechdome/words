@@ -21,7 +21,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.5.0'
+        classpath 'com.android.tools.build:gradle:2.3.1'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
     }
 }
@@ -31,7 +31,7 @@ subprojects {
         if (it.hasProperty('android')) {
             android {
                 compileSdkVersion 23
-                buildToolsVersion "23.0.1"
+                buildToolsVersion "25.0.1"
 
                 defaultConfig {
                     minSdkVersion 17

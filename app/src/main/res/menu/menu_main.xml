@@ -5,11 +5,11 @@
         android:icon="@drawable/ic_share_white_24dp"
         android:title="@string/menu_share"
         app:showAsAction="ifRoom"/>
-    <item android:id="@+id/rate"
-        android:icon="@drawable/ic_thumb_up_white_24dp"
-        android:title="@string/menu_rate"
-        app:showAsAction="ifRoom"/>
     <item android:id="@+id/about"
+        android:icon="@drawable/ic_thumb_up_white_24dp"
         android:title="@string/menu_about" />
+    <item android:id="@+id/id_aboutmechdome"
+        android:title="@string/about_mechdome"
+        app:showAsAction="ifRoom"/>
 </menu>
 
