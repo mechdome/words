@@ -69,5 +69,7 @@ dependencies {
     compile appDependencies.numberprogressbar
     compile appDependencies.butterknife
     compile appDependencies.rxandroid
+    compile 'com.google.firebase:firebase-ads:11.2.0'
     compile 'com.mechdome:MechDome-About:+'
 }
+apply plugin: 'com.google.gms.google-services'
