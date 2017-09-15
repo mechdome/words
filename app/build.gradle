@@ -34,6 +34,13 @@ android {
                 signingConfig signingConfigs.release
             }
         }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (System.getenv("KEYSTORE")) {
+                signingConfig signingConfigs.release
+            }
+        }
     }
     lintOptions {
         abortOnError false
@@ -69,7 +76,5 @@ dependencies {
     compile appDependencies.numberprogressbar
     compile appDependencies.butterknife
     compile appDependencies.rxandroid
-    compile 'com.google.firebase:firebase-ads:11.2.0'
-    compile 'com.mechdome:MechDome-About:+'
+    compile 'com.mechdome:MechDome-About:1.6'
 }
-apply plugin: 'com.google.gms.google-services'
